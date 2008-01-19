@@ -1,0 +1,23 @@
+# sample trac.ini configuration for ticket2rtm plugin.
+# add below to your trac.ini
+#
+
+[components]
+ticket2rtm.* = enabled
+
+[ticket2rtm]
+# tagname for RTM tasks
+rtm_tag = trac
+
+# XXX: currently not available...
+#rtm_list =
+
+# enter your API Key
+rtm_api_key =
+
+# enter your API Shared Secret
+rtm_api_secret =
+
+# enter your write-authorized API token
+# token can be acquired by using get_token.py
+rtm_api_token =
